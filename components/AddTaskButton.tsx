@@ -22,7 +22,7 @@ export default function AddTaskButton() {
       <DialogTrigger asChild>
         <Button
           size="lg"
-          className="font-medium gap-2 bg-primary hover:bg-primary/90"
+          className="w-full sm:w-auto font-medium gap-2 bg-primary hover:bg-primary/90"
         >
           <Plus className="h-4 w-4" />
           Yeni Görev Ekle

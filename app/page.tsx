@@ -25,7 +25,7 @@ export default function Home() {
 
         {/* Task Management Section */}
         <div className="space-y-6">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 sm:gap-6">
             <div className="space-y-1">
               <h2 className="text-2xl font-semibold tracking-tight">
                 Görevler
@@ -34,7 +34,9 @@ export default function Home() {
                 Tüm görevleri görüntüleyin ve yönetin
               </p>
             </div>
-            <AddTaskButton />
+            <div className="w-full sm:w-auto">
+              <AddTaskButton />
+            </div>
           </div>
 
           <TaskList />
